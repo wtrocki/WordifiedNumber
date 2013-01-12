@@ -34,7 +34,7 @@ public class PerformanceTest {
 	public void testConverter() {
 		long start = System.currentTimeMillis();
 		Random rand = new Random(System.nanoTime());
-		for (int i = 1; i < 10000; i++) {
+		for (int i = 1; i < 100000; i++) {
 			int nextInt = rand.nextInt(999999999);
 			converter.toWords(nextInt);
 		}
