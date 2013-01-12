@@ -7,7 +7,7 @@ import com.fexco.util.IWordifiedNumber;
 /**
  * Container for associating converters with supported locales.
  * 
- * Using {@link Locale} because in some languages spelling may vary based on
+ * Using {@link Locale} interface because in some languages spelling may vary based on
  * location (e.g. Spanish, partially English). Currently supporting only
  * language comparison
  * 

@@ -1,7 +1,7 @@
 package com.fexco.util.lang;
 
 import com.fexco.util.lang.model.GroupElement;
-import com.fexco.util.lang.vocabulary.IVocabulary;
+import com.fexco.util.lang.vocabulary.PolishVocabulary;
 
 /**
  * Walker for polish language. Used to calculate different variants for polish
@@ -9,8 +9,8 @@ import com.fexco.util.lang.vocabulary.IVocabulary;
  */
 public class PolishWalker extends DefaultWalker {
 
-	public PolishWalker(IVocabulary vocabulary) {
-		super(vocabulary);
+	public PolishWalker() {
+		super(new PolishVocabulary());
 	}
 
 	@Override
