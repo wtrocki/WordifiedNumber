@@ -13,7 +13,7 @@ public class EnglishVocabulary implements IVocabulary {
 	private static String[] tens = new String[] { "", "", "twenty", "thirty", "forty",
 			"fifty", "sixty", "seventy", "eighty", "ninety", };
 
-	private static String[] factor = new String[] { "", "thousand", "million", "million", };
+	private static String[] factor = new String[] { "", "thousand", "million", "billion", };
 
 	@Override
 	public String getFirstNineTeenFor(int value) {
